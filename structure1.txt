@@ -1,0 +1,50 @@
+.
+├── app
+│   ├── build.gradle.kts
+│   └── src
+│       └── main
+│           ├── AndroidManifest.xml
+│           ├── assets
+│           │   └── extensions
+│           │       ├── automation
+│           │       │   ├── content.js
+│           │       │   └── manifest.json
+│           │       └── extensions.json
+│           ├── java
+│           │   └── com
+│           │       └── swift
+│           │           └── browser
+│           │               ├── Browser.kt
+│           │               ├── BrowserUi.kt
+│           │               ├── Downloads.kt
+│           │               ├── Extensions.kt
+│           │               ├── MainActivity.kt
+│           │               ├── Prefs.kt
+│           │               ├── Prompts.kt
+│           │               ├── Screens.kt
+│           │               ├── Store.kt
+│           │               ├── SwiftApp.kt
+│           │               ├── TabDelegates.kt
+│           │               └── Theme.kt
+│           └── res
+│               ├── drawable
+│               │   └── ic_launcher_foreground.xml
+│               ├── mipmap-anydpi-v26
+│               │   └── ic_launcher.xml
+│               └── values
+│                   ├── strings.xml
+│                   └── themes.xml
+├── build.gradle.kts
+├── deps.txt
+├── .github
+│   └── workflows
+│       └── build.yml
+├── .gitignore
+├── gradle.properties
+├── README.md
+├── scripts
+│   └── fetch_extensions.py
+├── settings.gradle.kts
+└── structure1.txt
+
+18 directories, 30 files
